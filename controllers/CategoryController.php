@@ -5,7 +5,7 @@ namespace app\controllers;
 
 use yii\web\Controller;
 use yii\data\Pagination;
-use app\models\Country;
+use app\models\Category;
 
 class CategoryController
 {
@@ -17,7 +17,7 @@ class CategoryController
             ->all();
 
         return $this->render('index', [
-            'countries' => $categories,
+            'categories' => $categories,
         ]);
     }
 }

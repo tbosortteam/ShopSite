@@ -1,5 +1,6 @@
 <?php
 use kartik\tree\TreeView;
+use app\models\TreeTable;
 
 echo TreeView::widget([
     // single query fetch to render the tree
